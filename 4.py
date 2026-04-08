@@ -1,0 +1,12 @@
+# inbuilt functions
+
+l=eval(input("enter any list:- "))
+print(l)
+print(type(l))
+print(id(l))
+print(len(l))
+
+print(max(l))
+print(min(l))
+print(sum(l))
+

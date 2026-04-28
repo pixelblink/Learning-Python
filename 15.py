@@ -26,6 +26,11 @@
 #     i=i+1
 
 
+
+# Dynamic Calculator in Pythonnnn 
+
+
+
 while True:
     print("1.ADDITION \n 2.SUBSTRCTION \n 3.MULTIPLE \n 4.DIVISION \n 5.OFF \n")
     n=int(input("Enter above mention any option:"))
@@ -39,5 +44,13 @@ while True:
                 number=int(input(f'enter {i} number:'))
                 sum=sum+number
             print("Addition Answer is:",sum)
+
+        if n==2:
+            x=int(input("Enter how many no you want to subtract"))
+            sub=int(input("enter 1 number:"))
+            for i in range(2,x+1):
+                number=int(input(f'enter {i} number:'))
+                sub=sub-number
+            print("Subtraction Answer is:",sub)
     else:
         print("Plz enter valid option")

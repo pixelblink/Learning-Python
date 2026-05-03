@@ -52,5 +52,14 @@ while True:
                 number=int(input(f'enter {i} number:'))
                 sub=sub-number
             print("Subtraction Answer is:",sub)
+
+        if n==3:
+            x=int(input("Enter how many no you want to multiply"))
+            mul=1
+            for i in range(1,x+1):
+                number=int(input(f'enter {i} number:'))
+                mul=mul*number
+            print("Multiplication Answer is:",mul)
+
     else:
         print("Plz enter valid option")

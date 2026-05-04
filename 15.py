@@ -61,5 +61,17 @@ while True:
                 mul=mul*number
             print("Multiplication Answer is:",mul)
 
+        if n==4:
+            x=int(input("Enter how many no you want to divide"))
+            div=int(input("enter 1 number:"))
+            for i in range(2,x+1):
+                number=int(input(f'enter {i} number:'))
+                if number==0:
+                    print("Cannot divide by zero")
+                    break
+                div=div/number
+            else:
+                print("Division Answer is:",div)
+
     else:
         print("Plz enter valid option")

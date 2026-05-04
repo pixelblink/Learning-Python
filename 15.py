@@ -30,7 +30,6 @@
 # Dynamic Calculator in Pythonnnn 
 
 
-
 while True:
     print("1.ADDITION \n 2.SUBSTRCTION \n 3.MULTIPLE \n 4.DIVISION \n 5.OFF \n")
     n=int(input("Enter above mention any option:"))
@@ -72,6 +71,10 @@ while True:
                 div=div/number
             else:
                 print("Division Answer is:",div)
+
+        if n==5:
+            print("Calculator OFF")
+            break
 
     else:
         print("Plz enter valid option")

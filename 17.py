@@ -82,13 +82,13 @@
 # add(x=10,y=20,z=30)
 
 
-d={"x":300,"y":"soldiers","z":200}
-sum=0
-for i in d:
-    sum=sum+d.get(i)
-    sum=sum+d(i)
+# d={"x":300,"y":"soldiers","z":200}
+# sum=0
+# for i in d:
+#     sum=sum+d.get(i)
+#     sum=sum+d(i)
 
 
-for i in d.value():
-    sum=sum+i
+# for i in d.value():
+#     sum=sum+i
 

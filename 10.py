@@ -51,9 +51,9 @@
 
 
 
-n=eval(input("enter number"))
-td=0
-while n>0:
-    td=td+1
-    n=n//10
-print(f'total digits= {td}')
+# n=eval(input("enter number"))
+# td=0
+# while n>0:
+#     td=td+1
+#     n=n//10
+# print(f'total digits= {td}')

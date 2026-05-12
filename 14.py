@@ -27,10 +27,10 @@
 
 
 
-n=int(input("enter number"))
-for i in range(1,n+1):
-    ch="A"
-    for _ in range(1,i+1):
-        print(ch,end=" ")
-        ch=chr(ord(ch)+1)
-    print()
+# n=int(input("enter number"))
+# for i in range(1,n+1):
+#     ch="A"
+#     for _ in range(1,i+1):
+#         print(ch,end=" ")
+#         ch=chr(ord(ch)+1)
+#     print()

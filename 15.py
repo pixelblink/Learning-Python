@@ -27,7 +27,7 @@
 
 
 
-# Dynamic Calculator in Pythonnnn 
+# Dynamic Calculator in Python
 
 
 while True:

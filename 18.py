@@ -25,12 +25,12 @@
 # add()
 # print(x)
 
-x=20
-def add():
-    x=10
-    print(x)
-    print(globals()['x']) #to access global variable to local
-add()
-print(x)
+# x=20
+# def add():
+#     x=10
+#     print(x)
+#     print(globals()['x']) #to access global variable to local
+# add()
+# print(x)
 
 

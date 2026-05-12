@@ -18,8 +18,8 @@
 
 # jumping a single character one step
 
-s="abc"
-s1=''
-for ch in s:
-    s1=s1+chr(ord(ch)+1)
-print(s1)
+# s="abc"
+# s1=''
+# for ch in s:
+#     s1=s1+chr(ord(ch)+1)
+# print(s1)

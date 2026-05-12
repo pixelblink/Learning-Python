@@ -51,26 +51,26 @@ import functools
 
 # max number finding  
 
-l=[2,34,34,63,92,53,11]
-def max_num(a,b):
-    if a>b:
-        return a
-    else:
-        return b
+# l=[2,34,34,63,92,53,11]
+# def max_num(a,b):
+#     if a>b:
+#         return a
+#     else:
+#         return b
 
-res=functools.reduce(max_num,l)
-print(res)
+# res=functools.reduce(max_num,l)
+# print(res)
 
 
-# max number finding  
+# # max number finding  
 
-l=[2,34,34,63,92,53,11]
-def min_num(a,b):
-    if a<b:
-        return a
-    else:
-        return b
+# l=[2,34,34,63,92,53,11]
+# def min_num(a,b):
+#     if a<b:
+#         return a
+#     else:
+#         return b
 
-res=functools.reduce(min_num,l)
-print(res)
+# res=functools.reduce(min_num,l)
+# print(res)
 

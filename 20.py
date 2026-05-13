@@ -1,6 +1,7 @@
 import functools
 
 # LAMBDA
+# lambda functions are small, anonymous functions defined without a name, primarily used for short-lived tasks. specially when you want to use a function once
 # nameless functions in python
 # it does not require the use of return keyword
 # syntax 
